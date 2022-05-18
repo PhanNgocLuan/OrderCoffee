@@ -9,7 +9,7 @@
 import UIKit
 
 class CoffeeListTableViewCell: UITableViewCell {
-    //tạo định danh cho danh sách cf thuộc danh mục cf
+    //tạo định danh cho danh sách cf thuộc danh mục coffee
     static let identifier = String(describing: CoffeeListTableViewCell.self)
     @IBOutlet weak var CfImageView: UIImageView!
     @IBOutlet weak var titleLbl: UILabel!
