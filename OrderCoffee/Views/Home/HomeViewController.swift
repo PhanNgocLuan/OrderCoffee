@@ -55,7 +55,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     
-    //hiển thị các collectionViewCell cùng dữ liệu ra homeScreen
+    //hiển thị các collectionViewCell cùng dữ liệu ra HomeScreen
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         switch collectionView {
