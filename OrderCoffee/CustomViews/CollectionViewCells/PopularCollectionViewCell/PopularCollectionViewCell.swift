@@ -15,7 +15,7 @@ class PopularCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var coffeeImageView: UIImageView!
     @IBOutlet weak var descLbl: UILabel!
 
-    //gán dữ liệu danh mục món ăn cho các component
+    //gán dữ liệu danh mục món ăn cho các component 
     func setup(coffee: Coffee){
         titleLbl.text = coffee.name
         coffeeImageView.kf.setImage(with: coffee.image?.asUrl)
