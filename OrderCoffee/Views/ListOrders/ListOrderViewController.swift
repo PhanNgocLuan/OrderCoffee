@@ -47,7 +47,7 @@ extension ListOrderViewController: UITableViewDataSource, UITableViewDelegate{
         return cell
     }
     
-    //xử lý khi click vào cf => dẫn đến trang chi tiết của cf đó
+    //xử lý khi click vào coffee => dẫn đến trang chi tiết của coffee đó
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let controller = CoffeeDetailViewController.instantiateDetail()
         controller.coffee = orders[indexPath.row].coffee
